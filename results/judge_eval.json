@@ -1,0 +1,1271 @@
+{
+  "system_a": "base_few_shot",
+  "system_b": "finetune",
+  "metric": "chrF++ (word_order=2)",
+  "margin": 1.0,
+  "n": 150,
+  "win_a": 62,
+  "win_b": 49,
+  "ties": 39,
+  "avg_chrf_a": 21.5735,
+  "avg_chrf_b": 21.1717,
+  "by_category": {
+    "classification": {
+      "A_wins": 5,
+      "B_wins": 8,
+      "tie": 2
+    },
+    "creative": {
+      "A_wins": 6,
+      "B_wins": 0,
+      "tie": 4
+    },
+    "cultural": {
+      "A_wins": 5,
+      "B_wins": 6,
+      "tie": 4
+    },
+    "extraction": {
+      "A_wins": 4,
+      "B_wins": 7,
+      "tie": 4
+    },
+    "factual_qa": {
+      "A_wins": 10,
+      "B_wins": 7,
+      "tie": 3
+    },
+    "multi_turn": {
+      "A_wins": 5,
+      "B_wins": 2,
+      "tie": 3
+    },
+    "reasoning": {
+      "A_wins": 9,
+      "B_wins": 5,
+      "tie": 1
+    },
+    "refuse_clarify": {
+      "A_wins": 3,
+      "B_wins": 3,
+      "tie": 4
+    },
+    "rewriting": {
+      "A_wins": 4,
+      "B_wins": 4,
+      "tie": 7
+    },
+    "summarization": {
+      "A_wins": 5,
+      "B_wins": 5,
+      "tie": 5
+    },
+    "translation": {
+      "A_wins": 6,
+      "B_wins": 2,
+      "tie": 2
+    }
+  },
+  "items": [
+    {
+      "id": "classification_051",
+      "category": "classification",
+      "verdict": "A_wins",
+      "chrf_a": 23.04,
+      "chrf_b": 3.55,
+      "delta": 19.48
+    },
+    {
+      "id": "classification_052",
+      "category": "classification",
+      "verdict": "B_wins",
+      "chrf_a": 0.7,
+      "chrf_b": 10.45,
+      "delta": -9.75
+    },
+    {
+      "id": "classification_053",
+      "category": "classification",
+      "verdict": "B_wins",
+      "chrf_a": 48.7,
+      "chrf_b": 96.2,
+      "delta": -47.5
+    },
+    {
+      "id": "classification_054",
+      "category": "classification",
+      "verdict": "B_wins",
+      "chrf_a": 51.28,
+      "chrf_b": 59.9,
+      "delta": -8.62
+    },
+    {
+      "id": "classification_055",
+      "category": "classification",
+      "verdict": "tie",
+      "chrf_a": 13.5,
+      "chrf_b": 13.06,
+      "delta": 0.44
+    },
+    {
+      "id": "classification_056",
+      "category": "classification",
+      "verdict": "A_wins",
+      "chrf_a": 13.66,
+      "chrf_b": 4.18,
+      "delta": 9.49
+    },
+    {
+      "id": "classification_057",
+      "category": "classification",
+      "verdict": "A_wins",
+      "chrf_a": 11.4,
+      "chrf_b": 2.26,
+      "delta": 9.14
+    },
+    {
+      "id": "classification_058",
+      "category": "classification",
+      "verdict": "B_wins",
+      "chrf_a": 0.31,
+      "chrf_b": 6.58,
+      "delta": -6.27
+    },
+    {
+      "id": "classification_059",
+      "category": "classification",
+      "verdict": "B_wins",
+      "chrf_a": 33.16,
+      "chrf_b": 73.22,
+      "delta": -40.06
+    },
+    {
+      "id": "classification_060",
+      "category": "classification",
+      "verdict": "A_wins",
+      "chrf_a": 10.81,
+      "chrf_b": 5.75,
+      "delta": 5.06
+    },
+    {
+      "id": "classification_061",
+      "category": "classification",
+      "verdict": "A_wins",
+      "chrf_a": 6.82,
+      "chrf_b": 5.64,
+      "delta": 1.18
+    },
+    {
+      "id": "classification_062",
+      "category": "classification",
+      "verdict": "B_wins",
+      "chrf_a": 14.29,
+      "chrf_b": 16.41,
+      "delta": -2.11
+    },
+    {
+      "id": "classification_063",
+      "category": "classification",
+      "verdict": "B_wins",
+      "chrf_a": 2.44,
+      "chrf_b": 5.44,
+      "delta": -3.0
+    },
+    {
+      "id": "classification_064",
+      "category": "classification",
+      "verdict": "B_wins",
+      "chrf_a": 30.36,
+      "chrf_b": 39.15,
+      "delta": -8.8
+    },
+    {
+      "id": "classification_065",
+      "category": "classification",
+      "verdict": "tie",
+      "chrf_a": 13.44,
+      "chrf_b": 13.63,
+      "delta": -0.19
+    },
+    {
+      "id": "creative_096",
+      "category": "creative",
+      "verdict": "tie",
+      "chrf_a": 4.29,
+      "chrf_b": 4.29,
+      "delta": 0.0
+    },
+    {
+      "id": "creative_097",
+      "category": "creative",
+      "verdict": "A_wins",
+      "chrf_a": 17.94,
+      "chrf_b": 2.53,
+      "delta": 15.41
+    },
+    {
+      "id": "creative_098",
+      "category": "creative",
+      "verdict": "tie",
+      "chrf_a": 7.01,
+      "chrf_b": 8.01,
+      "delta": -1.0
+    },
+    {
+      "id": "creative_099",
+      "category": "creative",
+      "verdict": "tie",
+      "chrf_a": 5.08,
+      "chrf_b": 5.34,
+      "delta": -0.26
+    },
+    {
+      "id": "creative_100",
+      "category": "creative",
+      "verdict": "A_wins",
+      "chrf_a": 11.39,
+      "chrf_b": 6.22,
+      "delta": 5.18
+    },
+    {
+      "id": "creative_101",
+      "category": "creative",
+      "verdict": "A_wins",
+      "chrf_a": 12.06,
+      "chrf_b": 5.1,
+      "delta": 6.97
+    },
+    {
+      "id": "creative_102",
+      "category": "creative",
+      "verdict": "A_wins",
+      "chrf_a": 8.6,
+      "chrf_b": 4.91,
+      "delta": 3.69
+    },
+    {
+      "id": "creative_103",
+      "category": "creative",
+      "verdict": "tie",
+      "chrf_a": 13.05,
+      "chrf_b": 13.05,
+      "delta": 0.0
+    },
+    {
+      "id": "creative_104",
+      "category": "creative",
+      "verdict": "A_wins",
+      "chrf_a": 5.87,
+      "chrf_b": 4.73,
+      "delta": 1.14
+    },
+    {
+      "id": "creative_105",
+      "category": "creative",
+      "verdict": "A_wins",
+      "chrf_a": 15.45,
+      "chrf_b": 10.2,
+      "delta": 5.25
+    },
+    {
+      "id": "cultural_136",
+      "category": "cultural",
+      "verdict": "A_wins",
+      "chrf_a": 7.97,
+      "chrf_b": 5.8,
+      "delta": 2.17
+    },
+    {
+      "id": "cultural_137",
+      "category": "cultural",
+      "verdict": "tie",
+      "chrf_a": 13.28,
+      "chrf_b": 13.64,
+      "delta": -0.36
+    },
+    {
+      "id": "cultural_138",
+      "category": "cultural",
+      "verdict": "tie",
+      "chrf_a": 11.61,
+      "chrf_b": 11.05,
+      "delta": 0.56
+    },
+    {
+      "id": "cultural_139",
+      "category": "cultural",
+      "verdict": "B_wins",
+      "chrf_a": 10.74,
+      "chrf_b": 17.92,
+      "delta": -7.17
+    },
+    {
+      "id": "cultural_140",
+      "category": "cultural",
+      "verdict": "B_wins",
+      "chrf_a": 12.19,
+      "chrf_b": 17.23,
+      "delta": -5.04
+    },
+    {
+      "id": "cultural_141",
+      "category": "cultural",
+      "verdict": "A_wins",
+      "chrf_a": 23.66,
+      "chrf_b": 16.78,
+      "delta": 6.88
+    },
+    {
+      "id": "cultural_142",
+      "category": "cultural",
+      "verdict": "B_wins",
+      "chrf_a": 8.22,
+      "chrf_b": 12.5,
+      "delta": -4.28
+    },
+    {
+      "id": "cultural_143",
+      "category": "cultural",
+      "verdict": "A_wins",
+      "chrf_a": 8.48,
+      "chrf_b": 6.11,
+      "delta": 2.37
+    },
+    {
+      "id": "cultural_144",
+      "category": "cultural",
+      "verdict": "B_wins",
+      "chrf_a": 6.63,
+      "chrf_b": 13.49,
+      "delta": -6.86
+    },
+    {
+      "id": "cultural_145",
+      "category": "cultural",
+      "verdict": "tie",
+      "chrf_a": 15.47,
+      "chrf_b": 14.72,
+      "delta": 0.75
+    },
+    {
+      "id": "cultural_146",
+      "category": "cultural",
+      "verdict": "A_wins",
+      "chrf_a": 7.09,
+      "chrf_b": 5.94,
+      "delta": 1.15
+    },
+    {
+      "id": "cultural_147",
+      "category": "cultural",
+      "verdict": "B_wins",
+      "chrf_a": 16.63,
+      "chrf_b": 18.38,
+      "delta": -1.75
+    },
+    {
+      "id": "cultural_148",
+      "category": "cultural",
+      "verdict": "A_wins",
+      "chrf_a": 9.62,
+      "chrf_b": 4.51,
+      "delta": 5.12
+    },
+    {
+      "id": "cultural_149",
+      "category": "cultural",
+      "verdict": "B_wins",
+      "chrf_a": 9.64,
+      "chrf_b": 13.22,
+      "delta": -3.58
+    },
+    {
+      "id": "cultural_150",
+      "category": "cultural",
+      "verdict": "tie",
+      "chrf_a": 17.86,
+      "chrf_b": 18.56,
+      "delta": -0.7
+    },
+    {
+      "id": "extraction_066",
+      "category": "extraction",
+      "verdict": "A_wins",
+      "chrf_a": 83.23,
+      "chrf_b": 80.75,
+      "delta": 2.48
+    },
+    {
+      "id": "extraction_067",
+      "category": "extraction",
+      "verdict": "B_wins",
+      "chrf_a": 47.12,
+      "chrf_b": 49.91,
+      "delta": -2.79
+    },
+    {
+      "id": "extraction_068",
+      "category": "extraction",
+      "verdict": "B_wins",
+      "chrf_a": 31.0,
+      "chrf_b": 35.04,
+      "delta": -4.04
+    },
+    {
+      "id": "extraction_069",
+      "category": "extraction",
+      "verdict": "tie",
+      "chrf_a": 54.75,
+      "chrf_b": 55.25,
+      "delta": -0.5
+    },
+    {
+      "id": "extraction_070",
+      "category": "extraction",
+      "verdict": "B_wins",
+      "chrf_a": 53.86,
+      "chrf_b": 65.0,
+      "delta": -11.14
+    },
+    {
+      "id": "extraction_071",
+      "category": "extraction",
+      "verdict": "tie",
+      "chrf_a": 30.24,
+      "chrf_b": 31.06,
+      "delta": -0.82
+    },
+    {
+      "id": "extraction_072",
+      "category": "extraction",
+      "verdict": "B_wins",
+      "chrf_a": 28.35,
+      "chrf_b": 35.52,
+      "delta": -7.18
+    },
+    {
+      "id": "extraction_073",
+      "category": "extraction",
+      "verdict": "tie",
+      "chrf_a": 54.31,
+      "chrf_b": 55.22,
+      "delta": -0.91
+    },
+    {
+      "id": "extraction_074",
+      "category": "extraction",
+      "verdict": "B_wins",
+      "chrf_a": 35.7,
+      "chrf_b": 49.05,
+      "delta": -13.35
+    },
+    {
+      "id": "extraction_075",
+      "category": "extraction",
+      "verdict": "A_wins",
+      "chrf_a": 58.29,
+      "chrf_b": 44.08,
+      "delta": 14.21
+    },
+    {
+      "id": "extraction_076",
+      "category": "extraction",
+      "verdict": "A_wins",
+      "chrf_a": 70.1,
+      "chrf_b": 63.78,
+      "delta": 6.32
+    },
+    {
+      "id": "extraction_077",
+      "category": "extraction",
+      "verdict": "B_wins",
+      "chrf_a": 18.61,
+      "chrf_b": 29.67,
+      "delta": -11.06
+    },
+    {
+      "id": "extraction_078",
+      "category": "extraction",
+      "verdict": "tie",
+      "chrf_a": 46.79,
+      "chrf_b": 46.79,
+      "delta": 0.0
+    },
+    {
+      "id": "extraction_079",
+      "category": "extraction",
+      "verdict": "B_wins",
+      "chrf_a": 27.14,
+      "chrf_b": 29.75,
+      "delta": -2.61
+    },
+    {
+      "id": "extraction_080",
+      "category": "extraction",
+      "verdict": "A_wins",
+      "chrf_a": 49.33,
+      "chrf_b": 9.6,
+      "delta": 39.73
+    },
+    {
+      "id": "factual_qa_001",
+      "category": "factual_qa",
+      "verdict": "A_wins",
+      "chrf_a": 100.0,
+      "chrf_b": 8.52,
+      "delta": 91.48
+    },
+    {
+      "id": "factual_qa_002",
+      "category": "factual_qa",
+      "verdict": "A_wins",
+      "chrf_a": 23.74,
+      "chrf_b": 5.97,
+      "delta": 17.78
+    },
+    {
+      "id": "factual_qa_003",
+      "category": "factual_qa",
+      "verdict": "A_wins",
+      "chrf_a": 18.5,
+      "chrf_b": 11.7,
+      "delta": 6.8
+    },
+    {
+      "id": "factual_qa_004",
+      "category": "factual_qa",
+      "verdict": "A_wins",
+      "chrf_a": 9.99,
+      "chrf_b": 1.26,
+      "delta": 8.73
+    },
+    {
+      "id": "factual_qa_005",
+      "category": "factual_qa",
+      "verdict": "A_wins",
+      "chrf_a": 41.54,
+      "chrf_b": 26.32,
+      "delta": 15.21
+    },
+    {
+      "id": "factual_qa_006",
+      "category": "factual_qa",
+      "verdict": "B_wins",
+      "chrf_a": 10.95,
+      "chrf_b": 17.82,
+      "delta": -6.87
+    },
+    {
+      "id": "factual_qa_007",
+      "category": "factual_qa",
+      "verdict": "B_wins",
+      "chrf_a": 12.97,
+      "chrf_b": 26.48,
+      "delta": -13.51
+    },
+    {
+      "id": "factual_qa_008",
+      "category": "factual_qa",
+      "verdict": "tie",
+      "chrf_a": 7.82,
+      "chrf_b": 8.49,
+      "delta": -0.67
+    },
+    {
+      "id": "factual_qa_009",
+      "category": "factual_qa",
+      "verdict": "B_wins",
+      "chrf_a": 12.82,
+      "chrf_b": 15.35,
+      "delta": -2.54
+    },
+    {
+      "id": "factual_qa_010",
+      "category": "factual_qa",
+      "verdict": "A_wins",
+      "chrf_a": 11.3,
+      "chrf_b": 5.38,
+      "delta": 5.93
+    },
+    {
+      "id": "factual_qa_011",
+      "category": "factual_qa",
+      "verdict": "tie",
+      "chrf_a": 13.67,
+      "chrf_b": 14.65,
+      "delta": -0.97
+    },
+    {
+      "id": "factual_qa_012",
+      "category": "factual_qa",
+      "verdict": "B_wins",
+      "chrf_a": 10.91,
+      "chrf_b": 17.84,
+      "delta": -6.93
+    },
+    {
+      "id": "factual_qa_013",
+      "category": "factual_qa",
+      "verdict": "B_wins",
+      "chrf_a": 22.83,
+      "chrf_b": 27.54,
+      "delta": -4.71
+    },
+    {
+      "id": "factual_qa_014",
+      "category": "factual_qa",
+      "verdict": "A_wins",
+      "chrf_a": 11.36,
+      "chrf_b": 5.41,
+      "delta": 5.95
+    },
+    {
+      "id": "factual_qa_015",
+      "category": "factual_qa",
+      "verdict": "A_wins",
+      "chrf_a": 30.55,
+      "chrf_b": 4.38,
+      "delta": 26.18
+    },
+    {
+      "id": "factual_qa_016",
+      "category": "factual_qa",
+      "verdict": "tie",
+      "chrf_a": 28.88,
+      "chrf_b": 29.56,
+      "delta": -0.68
+    },
+    {
+      "id": "factual_qa_017",
+      "category": "factual_qa",
+      "verdict": "A_wins",
+      "chrf_a": 14.59,
+      "chrf_b": 9.08,
+      "delta": 5.51
+    },
+    {
+      "id": "factual_qa_018",
+      "category": "factual_qa",
+      "verdict": "B_wins",
+      "chrf_a": 14.28,
+      "chrf_b": 16.87,
+      "delta": -2.59
+    },
+    {
+      "id": "factual_qa_019",
+      "category": "factual_qa",
+      "verdict": "B_wins",
+      "chrf_a": 7.65,
+      "chrf_b": 10.13,
+      "delta": -2.48
+    },
+    {
+      "id": "factual_qa_020",
+      "category": "factual_qa",
+      "verdict": "A_wins",
+      "chrf_a": 24.42,
+      "chrf_b": 5.13,
+      "delta": 19.29
+    },
+    {
+      "id": "multi_turn_126",
+      "category": "multi_turn",
+      "verdict": "A_wins",
+      "chrf_a": 22.87,
+      "chrf_b": 6.83,
+      "delta": 16.04
+    },
+    {
+      "id": "multi_turn_127",
+      "category": "multi_turn",
+      "verdict": "tie",
+      "chrf_a": 6.76,
+      "chrf_b": 7.64,
+      "delta": -0.87
+    },
+    {
+      "id": "multi_turn_128",
+      "category": "multi_turn",
+      "verdict": "A_wins",
+      "chrf_a": 8.75,
+      "chrf_b": 5.38,
+      "delta": 3.37
+    },
+    {
+      "id": "multi_turn_129",
+      "category": "multi_turn",
+      "verdict": "A_wins",
+      "chrf_a": 28.59,
+      "chrf_b": 13.83,
+      "delta": 14.76
+    },
+    {
+      "id": "multi_turn_130",
+      "category": "multi_turn",
+      "verdict": "B_wins",
+      "chrf_a": 10.82,
+      "chrf_b": 15.51,
+      "delta": -4.69
+    },
+    {
+      "id": "multi_turn_131",
+      "category": "multi_turn",
+      "verdict": "tie",
+      "chrf_a": 15.34,
+      "chrf_b": 14.82,
+      "delta": 0.52
+    },
+    {
+      "id": "multi_turn_132",
+      "category": "multi_turn",
+      "verdict": "A_wins",
+      "chrf_a": 15.62,
+      "chrf_b": 13.6,
+      "delta": 2.02
+    },
+    {
+      "id": "multi_turn_133",
+      "category": "multi_turn",
+      "verdict": "A_wins",
+      "chrf_a": 12.97,
+      "chrf_b": 3.13,
+      "delta": 9.84
+    },
+    {
+      "id": "multi_turn_134",
+      "category": "multi_turn",
+      "verdict": "B_wins",
+      "chrf_a": 3.43,
+      "chrf_b": 4.76,
+      "delta": -1.33
+    },
+    {
+      "id": "multi_turn_135",
+      "category": "multi_turn",
+      "verdict": "tie",
+      "chrf_a": 14.12,
+      "chrf_b": 13.74,
+      "delta": 0.38
+    },
+    {
+      "id": "reasoning_081",
+      "category": "reasoning",
+      "verdict": "B_wins",
+      "chrf_a": 40.47,
+      "chrf_b": 57.2,
+      "delta": -16.73
+    },
+    {
+      "id": "reasoning_082",
+      "category": "reasoning",
+      "verdict": "A_wins",
+      "chrf_a": 24.27,
+      "chrf_b": 5.47,
+      "delta": 18.8
+    },
+    {
+      "id": "reasoning_083",
+      "category": "reasoning",
+      "verdict": "A_wins",
+      "chrf_a": 29.1,
+      "chrf_b": 11.9,
+      "delta": 17.2
+    },
+    {
+      "id": "reasoning_084",
+      "category": "reasoning",
+      "verdict": "B_wins",
+      "chrf_a": 13.08,
+      "chrf_b": 18.24,
+      "delta": -5.15
+    },
+    {
+      "id": "reasoning_085",
+      "category": "reasoning",
+      "verdict": "A_wins",
+      "chrf_a": 43.61,
+      "chrf_b": 42.56,
+      "delta": 1.05
+    },
+    {
+      "id": "reasoning_086",
+      "category": "reasoning",
+      "verdict": "B_wins",
+      "chrf_a": 28.8,
+      "chrf_b": 31.87,
+      "delta": -3.07
+    },
+    {
+      "id": "reasoning_087",
+      "category": "reasoning",
+      "verdict": "B_wins",
+      "chrf_a": 11.76,
+      "chrf_b": 21.4,
+      "delta": -9.64
+    },
+    {
+      "id": "reasoning_088",
+      "category": "reasoning",
+      "verdict": "A_wins",
+      "chrf_a": 21.79,
+      "chrf_b": 3.2,
+      "delta": 18.59
+    },
+    {
+      "id": "reasoning_089",
+      "category": "reasoning",
+      "verdict": "B_wins",
+      "chrf_a": 9.97,
+      "chrf_b": 17.42,
+      "delta": -7.45
+    },
+    {
+      "id": "reasoning_090",
+      "category": "reasoning",
+      "verdict": "A_wins",
+      "chrf_a": 17.06,
+      "chrf_b": 15.21,
+      "delta": 1.85
+    },
+    {
+      "id": "reasoning_091",
+      "category": "reasoning",
+      "verdict": "tie",
+      "chrf_a": 4.37,
+      "chrf_b": 3.71,
+      "delta": 0.66
+    },
+    {
+      "id": "reasoning_092",
+      "category": "reasoning",
+      "verdict": "A_wins",
+      "chrf_a": 18.42,
+      "chrf_b": 6.8,
+      "delta": 11.63
+    },
+    {
+      "id": "reasoning_093",
+      "category": "reasoning",
+      "verdict": "A_wins",
+      "chrf_a": 17.42,
+      "chrf_b": 11.42,
+      "delta": 6.0
+    },
+    {
+      "id": "reasoning_094",
+      "category": "reasoning",
+      "verdict": "A_wins",
+      "chrf_a": 13.83,
+      "chrf_b": 11.2,
+      "delta": 2.63
+    },
+    {
+      "id": "reasoning_095",
+      "category": "reasoning",
+      "verdict": "A_wins",
+      "chrf_a": 30.48,
+      "chrf_b": 19.73,
+      "delta": 10.75
+    },
+    {
+      "id": "refuse_clarify_116",
+      "category": "refuse_clarify",
+      "verdict": "B_wins",
+      "chrf_a": 8.5,
+      "chrf_b": 12.38,
+      "delta": -3.88
+    },
+    {
+      "id": "refuse_clarify_117",
+      "category": "refuse_clarify",
+      "verdict": "A_wins",
+      "chrf_a": 10.56,
+      "chrf_b": 5.33,
+      "delta": 5.24
+    },
+    {
+      "id": "refuse_clarify_118",
+      "category": "refuse_clarify",
+      "verdict": "B_wins",
+      "chrf_a": 6.32,
+      "chrf_b": 9.22,
+      "delta": -2.9
+    },
+    {
+      "id": "refuse_clarify_119",
+      "category": "refuse_clarify",
+      "verdict": "B_wins",
+      "chrf_a": 2.41,
+      "chrf_b": 3.52,
+      "delta": -1.11
+    },
+    {
+      "id": "refuse_clarify_120",
+      "category": "refuse_clarify",
+      "verdict": "tie",
+      "chrf_a": 4.75,
+      "chrf_b": 4.86,
+      "delta": -0.1
+    },
+    {
+      "id": "refuse_clarify_121",
+      "category": "refuse_clarify",
+      "verdict": "tie",
+      "chrf_a": 16.57,
+      "chrf_b": 17.04,
+      "delta": -0.47
+    },
+    {
+      "id": "refuse_clarify_122",
+      "category": "refuse_clarify",
+      "verdict": "tie",
+      "chrf_a": 3.71,
+      "chrf_b": 2.99,
+      "delta": 0.72
+    },
+    {
+      "id": "refuse_clarify_123",
+      "category": "refuse_clarify",
+      "verdict": "tie",
+      "chrf_a": 7.76,
+      "chrf_b": 7.34,
+      "delta": 0.42
+    },
+    {
+      "id": "refuse_clarify_124",
+      "category": "refuse_clarify",
+      "verdict": "A_wins",
+      "chrf_a": 10.2,
+      "chrf_b": 3.25,
+      "delta": 6.95
+    },
+    {
+      "id": "refuse_clarify_125",
+      "category": "refuse_clarify",
+      "verdict": "A_wins",
+      "chrf_a": 11.36,
+      "chrf_b": 5.86,
+      "delta": 5.5
+    },
+    {
+      "id": "rewriting_036",
+      "category": "rewriting",
+      "verdict": "A_wins",
+      "chrf_a": 21.6,
+      "chrf_b": 17.96,
+      "delta": 3.64
+    },
+    {
+      "id": "rewriting_037",
+      "category": "rewriting",
+      "verdict": "A_wins",
+      "chrf_a": 6.42,
+      "chrf_b": 5.12,
+      "delta": 1.3
+    },
+    {
+      "id": "rewriting_038",
+      "category": "rewriting",
+      "verdict": "tie",
+      "chrf_a": 43.71,
+      "chrf_b": 43.71,
+      "delta": 0.0
+    },
+    {
+      "id": "rewriting_039",
+      "category": "rewriting",
+      "verdict": "B_wins",
+      "chrf_a": 51.13,
+      "chrf_b": 53.36,
+      "delta": -2.23
+    },
+    {
+      "id": "rewriting_040",
+      "category": "rewriting",
+      "verdict": "tie",
+      "chrf_a": 8.58,
+      "chrf_b": 8.58,
+      "delta": 0.0
+    },
+    {
+      "id": "rewriting_041",
+      "category": "rewriting",
+      "verdict": "tie",
+      "chrf_a": 21.54,
+      "chrf_b": 21.54,
+      "delta": 0.0
+    },
+    {
+      "id": "rewriting_042",
+      "category": "rewriting",
+      "verdict": "tie",
+      "chrf_a": 45.98,
+      "chrf_b": 45.98,
+      "delta": 0.0
+    },
+    {
+      "id": "rewriting_043",
+      "category": "rewriting",
+      "verdict": "B_wins",
+      "chrf_a": 7.69,
+      "chrf_b": 11.35,
+      "delta": -3.66
+    },
+    {
+      "id": "rewriting_044",
+      "category": "rewriting",
+      "verdict": "tie",
+      "chrf_a": 27.39,
+      "chrf_b": 27.54,
+      "delta": -0.15
+    },
+    {
+      "id": "rewriting_045",
+      "category": "rewriting",
+      "verdict": "tie",
+      "chrf_a": 19.0,
+      "chrf_b": 19.0,
+      "delta": 0.0
+    },
+    {
+      "id": "rewriting_046",
+      "category": "rewriting",
+      "verdict": "tie",
+      "chrf_a": 18.23,
+      "chrf_b": 18.23,
+      "delta": 0.0
+    },
+    {
+      "id": "rewriting_047",
+      "category": "rewriting",
+      "verdict": "B_wins",
+      "chrf_a": 15.61,
+      "chrf_b": 19.53,
+      "delta": -3.92
+    },
+    {
+      "id": "rewriting_048",
+      "category": "rewriting",
+      "verdict": "B_wins",
+      "chrf_a": 14.03,
+      "chrf_b": 47.95,
+      "delta": -33.92
+    },
+    {
+      "id": "rewriting_049",
+      "category": "rewriting",
+      "verdict": "A_wins",
+      "chrf_a": 84.08,
+      "chrf_b": 52.54,
+      "delta": 31.55
+    },
+    {
+      "id": "rewriting_050",
+      "category": "rewriting",
+      "verdict": "A_wins",
+      "chrf_a": 14.66,
+      "chrf_b": 5.14,
+      "delta": 9.52
+    },
+    {
+      "id": "summarization_021",
+      "category": "summarization",
+      "verdict": "A_wins",
+      "chrf_a": 65.89,
+      "chrf_b": 56.73,
+      "delta": 9.16
+    },
+    {
+      "id": "summarization_022",
+      "category": "summarization",
+      "verdict": "tie",
+      "chrf_a": 58.55,
+      "chrf_b": 58.16,
+      "delta": 0.38
+    },
+    {
+      "id": "summarization_023",
+      "category": "summarization",
+      "verdict": "A_wins",
+      "chrf_a": 24.96,
+      "chrf_b": 16.39,
+      "delta": 8.57
+    },
+    {
+      "id": "summarization_024",
+      "category": "summarization",
+      "verdict": "A_wins",
+      "chrf_a": 46.81,
+      "chrf_b": 28.22,
+      "delta": 18.59
+    },
+    {
+      "id": "summarization_025",
+      "category": "summarization",
+      "verdict": "A_wins",
+      "chrf_a": 63.41,
+      "chrf_b": 62.03,
+      "delta": 1.37
+    },
+    {
+      "id": "summarization_026",
+      "category": "summarization",
+      "verdict": "B_wins",
+      "chrf_a": 2.86,
+      "chrf_b": 48.69,
+      "delta": -45.83
+    },
+    {
+      "id": "summarization_027",
+      "category": "summarization",
+      "verdict": "tie",
+      "chrf_a": 56.24,
+      "chrf_b": 56.23,
+      "delta": 0.01
+    },
+    {
+      "id": "summarization_028",
+      "category": "summarization",
+      "verdict": "tie",
+      "chrf_a": 65.9,
+      "chrf_b": 65.9,
+      "delta": 0.0
+    },
+    {
+      "id": "summarization_029",
+      "category": "summarization",
+      "verdict": "A_wins",
+      "chrf_a": 5.4,
+      "chrf_b": 0.98,
+      "delta": 4.42
+    },
+    {
+      "id": "summarization_030",
+      "category": "summarization",
+      "verdict": "tie",
+      "chrf_a": 32.32,
+      "chrf_b": 31.91,
+      "delta": 0.4
+    },
+    {
+      "id": "summarization_031",
+      "category": "summarization",
+      "verdict": "tie",
+      "chrf_a": 57.47,
+      "chrf_b": 56.91,
+      "delta": 0.55
+    },
+    {
+      "id": "summarization_032",
+      "category": "summarization",
+      "verdict": "B_wins",
+      "chrf_a": 4.73,
+      "chrf_b": 62.63,
+      "delta": -57.9
+    },
+    {
+      "id": "summarization_033",
+      "category": "summarization",
+      "verdict": "B_wins",
+      "chrf_a": 5.86,
+      "chrf_b": 48.21,
+      "delta": -42.35
+    },
+    {
+      "id": "summarization_034",
+      "category": "summarization",
+      "verdict": "B_wins",
+      "chrf_a": 17.43,
+      "chrf_b": 70.95,
+      "delta": -53.51
+    },
+    {
+      "id": "summarization_035",
+      "category": "summarization",
+      "verdict": "B_wins",
+      "chrf_a": 6.86,
+      "chrf_b": 32.08,
+      "delta": -25.22
+    },
+    {
+      "id": "translation_106",
+      "category": "translation",
+      "verdict": "tie",
+      "chrf_a": 9.42,
+      "chrf_b": 9.42,
+      "delta": 0.0
+    },
+    {
+      "id": "translation_107",
+      "category": "translation",
+      "verdict": "A_wins",
+      "chrf_a": 19.92,
+      "chrf_b": 6.22,
+      "delta": 13.71
+    },
+    {
+      "id": "translation_108",
+      "category": "translation",
+      "verdict": "A_wins",
+      "chrf_a": 8.47,
+      "chrf_b": 3.42,
+      "delta": 5.05
+    },
+    {
+      "id": "translation_109",
+      "category": "translation",
+      "verdict": "A_wins",
+      "chrf_a": 6.66,
+      "chrf_b": 3.4,
+      "delta": 3.26
+    },
+    {
+      "id": "translation_110",
+      "category": "translation",
+      "verdict": "B_wins",
+      "chrf_a": 3.76,
+      "chrf_b": 7.94,
+      "delta": -4.17
+    },
+    {
+      "id": "translation_111",
+      "category": "translation",
+      "verdict": "A_wins",
+      "chrf_a": 22.16,
+      "chrf_b": 12.11,
+      "delta": 10.06
+    },
+    {
+      "id": "translation_112",
+      "category": "translation",
+      "verdict": "A_wins",
+      "chrf_a": 7.03,
+      "chrf_b": 3.13,
+      "delta": 3.9
+    },
+    {
+      "id": "translation_113",
+      "category": "translation",
+      "verdict": "tie",
+      "chrf_a": 7.04,
+      "chrf_b": 7.04,
+      "delta": 0.0
+    },
+    {
+      "id": "translation_114",
+      "category": "translation",
+      "verdict": "B_wins",
+      "chrf_a": 1.95,
+      "chrf_b": 11.39,
+      "delta": -9.44
+    },
+    {
+      "id": "translation_115",
+      "category": "translation",
+      "verdict": "A_wins",
+      "chrf_a": 18.06,
+      "chrf_b": 11.84,
+      "delta": 6.22
+    }
+  ]
+}

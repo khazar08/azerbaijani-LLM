@@ -1,0 +1,72 @@
+{
+  "categories": [
+    {
+      "id": "factual_qa",
+      "label": "Factual Q&A",
+      "description": "Direct factual questions about Azerbaijani history, culture, science, geography.",
+      "target_n": 20
+    },
+    {
+      "id": "summarization",
+      "label": "Summarization",
+      "description": "Summarize a passage of Azerbaijani text in 2–3 sentences.",
+      "target_n": 15
+    },
+    {
+      "id": "rewriting",
+      "label": "Rewriting / Style",
+      "description": "Rewrite a sentence at a different formality level, simplify for a child, etc.",
+      "target_n": 15
+    },
+    {
+      "id": "classification",
+      "label": "Classification",
+      "description": "Classify sentiment, topic, or intent of a given Azerbaijani passage.",
+      "target_n": 15
+    },
+    {
+      "id": "extraction",
+      "label": "Information Extraction",
+      "description": "Extract named entities, dates, or structured fields from a passage.",
+      "target_n": 15
+    },
+    {
+      "id": "reasoning",
+      "label": "Reasoning / Math Word Problems",
+      "description": "Multi-step reasoning or Azerbaijani-language arithmetic word problems.",
+      "target_n": 15
+    },
+    {
+      "id": "creative",
+      "label": "Creative Writing",
+      "description": "Short poem, story opening, or slogan in Azerbaijani.",
+      "target_n": 10
+    },
+    {
+      "id": "translation",
+      "label": "Translation",
+      "description": "Azerbaijani ↔ English or ↔ Turkish translation with nuance.",
+      "target_n": 10
+    },
+    {
+      "id": "refuse_clarify",
+      "label": "Refuse / Clarify",
+      "description": "Instruction is ambiguous or requests something harmful; model should clarify or decline.",
+      "target_n": 10
+    },
+    {
+      "id": "multi_turn",
+      "label": "Multi-turn Follow-up",
+      "description": "Follow-up question that requires context from a prior turn.",
+      "target_n": 10
+    },
+    {
+      "id": "cultural",
+      "label": "Culturally-grounded",
+      "description": "Prompts requiring knowledge of Azerbaijani traditions, food, music, geography, figures.",
+      "target_n": 15
+    }
+  ],
+  "total_target": 150,
+  "notes": "Hand-write or heavily rewrite every example. Track category label in each jsonl record."
+}

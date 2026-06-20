@@ -1,0 +1,26 @@
+{
+  "base_zero_shot": {
+    "belebele_acc": 0.03666666666666667,
+    "sib200": {
+      "accuracy": 0.24509803921568626,
+      "macro_f1": 0.0564652738565782
+    },
+    "translation_chrf": 10.031114175366005
+  },
+  "base_few_shot": {
+    "belebele_acc": 0.2222222222222222,
+    "sib200": {
+      "accuracy": 0.24509803921568626,
+      "macro_f1": 0.0564652738565782
+    },
+    "translation_chrf": 8.853993598952632
+  },
+  "finetune": {
+    "belebele_acc": 0.30333333333333334,
+    "sib200": {
+      "accuracy": 0.30392156862745096,
+      "macro_f1": 0.22497366165361174
+    },
+    "translation_chrf": 7.275203828909851
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Qwen2.5-3B": {
+    "model_id": "Qwen/Qwen2.5-3B",
+    "az": 4.237,
+    "en": 1.307,
+    "ratio": 3.24
+  },
+  "Phi-3-mini": {
+    "model_id": "microsoft/Phi-3-mini-4k-instruct",
+    "az": 5.007,
+    "en": 1.492,
+    "ratio": 3.36
+  },
+  "Falcon-1B": {
+    "model_id": "tiiuae/falcon-rw-1b",
+    "az": 5.822,
+    "en": 1.372,
+    "ratio": 4.24
+  },
+  "BLOOM-560M": {
+    "model_id": "bigscience/bloom-560m",
+    "az": 3.892,
+    "en": 1.311,
+    "ratio": 2.97
+  }
+}

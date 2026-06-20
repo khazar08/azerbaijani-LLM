@@ -1,0 +1,521 @@
+{
+  "method": "human_eval",
+  "n": 50,
+  "human_wins_base_few_shot": 22,
+  "human_wins_finetune": 21,
+  "human_ties": 7,
+  "win_pct_base_few_shot": 44.0,
+  "win_pct_finetune": 42.0,
+  "tie_pct": 14.0,
+  "cohen_kappa_vs_judge": 0.0,
+  "raw_agreement_vs_judge": 14.0,
+  "per_category": {
+    "factual_qa": {
+      "fs": 4,
+      "ft": 4,
+      "tie": 0
+    },
+    "summarization": {
+      "fs": 1,
+      "ft": 6,
+      "tie": 2
+    },
+    "refuse_clarify": {
+      "fs": 3,
+      "ft": 0,
+      "tie": 0
+    },
+    "multi_turn": {
+      "fs": 3,
+      "ft": 0,
+      "tie": 0
+    },
+    "cultural": {
+      "fs": 1,
+      "ft": 2,
+      "tie": 1
+    },
+    "extraction": {
+      "fs": 1,
+      "ft": 3,
+      "tie": 0
+    },
+    "reasoning": {
+      "fs": 3,
+      "ft": 3,
+      "tie": 1
+    },
+    "classification": {
+      "fs": 0,
+      "ft": 1,
+      "tie": 1
+    },
+    "translation": {
+      "fs": 3,
+      "ft": 0,
+      "tie": 0
+    },
+    "creative": {
+      "fs": 2,
+      "ft": 0,
+      "tie": 0
+    },
+    "rewriting": {
+      "fs": 1,
+      "ft": 2,
+      "tie": 2
+    }
+  },
+  "results": [
+    {
+      "i": 1,
+      "id": "factual_qa_009",
+      "cat": "factual_qa",
+      "left_is_fs": true,
+      "user_verdict": "L",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 2,
+      "id": "summarization_029",
+      "cat": "summarization",
+      "left_is_fs": false,
+      "user_verdict": "L",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 3,
+      "id": "refuse_clarify_125",
+      "cat": "refuse_clarify",
+      "left_is_fs": true,
+      "user_verdict": "L",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 4,
+      "id": "summarization_030",
+      "cat": "summarization",
+      "left_is_fs": false,
+      "user_verdict": "L",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 5,
+      "id": "multi_turn_126",
+      "cat": "multi_turn",
+      "left_is_fs": true,
+      "user_verdict": "L",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 6,
+      "id": "factual_qa_007",
+      "cat": "factual_qa",
+      "left_is_fs": false,
+      "user_verdict": "L",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 7,
+      "id": "summarization_026",
+      "cat": "summarization",
+      "left_is_fs": true,
+      "user_verdict": "R",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 8,
+      "id": "cultural_150",
+      "cat": "cultural",
+      "left_is_fs": false,
+      "user_verdict": "T",
+      "human_winner": "tie",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 9,
+      "id": "extraction_066",
+      "cat": "extraction",
+      "left_is_fs": true,
+      "user_verdict": "R",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 10,
+      "id": "cultural_149",
+      "cat": "cultural",
+      "left_is_fs": false,
+      "user_verdict": "L",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 11,
+      "id": "factual_qa_011",
+      "cat": "factual_qa",
+      "left_is_fs": true,
+      "user_verdict": "L",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 12,
+      "id": "reasoning_081",
+      "cat": "reasoning",
+      "left_is_fs": false,
+      "user_verdict": "L",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 13,
+      "id": "classification_051",
+      "cat": "classification",
+      "left_is_fs": true,
+      "user_verdict": "R",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 14,
+      "id": "translation_107",
+      "cat": "translation",
+      "left_is_fs": false,
+      "user_verdict": "R",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 15,
+      "id": "reasoning_091",
+      "cat": "reasoning",
+      "left_is_fs": true,
+      "user_verdict": "L",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 16,
+      "id": "cultural_143",
+      "cat": "cultural",
+      "left_is_fs": false,
+      "user_verdict": "L",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 17,
+      "id": "summarization_027",
+      "cat": "summarization",
+      "left_is_fs": true,
+      "user_verdict": "T",
+      "human_winner": "tie",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 18,
+      "id": "creative_099",
+      "cat": "creative",
+      "left_is_fs": false,
+      "user_verdict": "R",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 19,
+      "id": "multi_turn_134",
+      "cat": "multi_turn",
+      "left_is_fs": true,
+      "user_verdict": "L",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 20,
+      "id": "cultural_141",
+      "cat": "cultural",
+      "left_is_fs": false,
+      "user_verdict": "R",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 21,
+      "id": "rewriting_045",
+      "cat": "rewriting",
+      "left_is_fs": true,
+      "user_verdict": "T",
+      "human_winner": "tie",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 22,
+      "id": "summarization_028",
+      "cat": "summarization",
+      "left_is_fs": false,
+      "user_verdict": "T",
+      "human_winner": "tie",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 23,
+      "id": "factual_qa_018",
+      "cat": "factual_qa",
+      "left_is_fs": true,
+      "user_verdict": "R",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 24,
+      "id": "rewriting_049",
+      "cat": "rewriting",
+      "left_is_fs": false,
+      "user_verdict": "L",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 25,
+      "id": "summarization_024",
+      "cat": "summarization",
+      "left_is_fs": true,
+      "user_verdict": "L",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 26,
+      "id": "summarization_032",
+      "cat": "summarization",
+      "left_is_fs": false,
+      "user_verdict": "L",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 27,
+      "id": "classification_054",
+      "cat": "classification",
+      "left_is_fs": true,
+      "user_verdict": "T",
+      "human_winner": "tie",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 28,
+      "id": "extraction_079",
+      "cat": "extraction",
+      "left_is_fs": false,
+      "user_verdict": "R",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 29,
+      "id": "summarization_023",
+      "cat": "summarization",
+      "left_is_fs": true,
+      "user_verdict": "R",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 30,
+      "id": "reasoning_088",
+      "cat": "reasoning",
+      "left_is_fs": false,
+      "user_verdict": "R",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 31,
+      "id": "factual_qa_006",
+      "cat": "factual_qa",
+      "left_is_fs": true,
+      "user_verdict": "R",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 32,
+      "id": "factual_qa_013",
+      "cat": "factual_qa",
+      "left_is_fs": false,
+      "user_verdict": "R",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 33,
+      "id": "extraction_068",
+      "cat": "extraction",
+      "left_is_fs": true,
+      "user_verdict": "R",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 34,
+      "id": "translation_112",
+      "cat": "translation",
+      "left_is_fs": false,
+      "user_verdict": "R",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 35,
+      "id": "summarization_033",
+      "cat": "summarization",
+      "left_is_fs": true,
+      "user_verdict": "R",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 36,
+      "id": "rewriting_036",
+      "cat": "rewriting",
+      "left_is_fs": false,
+      "user_verdict": "R",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 37,
+      "id": "rewriting_044",
+      "cat": "rewriting",
+      "left_is_fs": true,
+      "user_verdict": "R",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 38,
+      "id": "reasoning_082",
+      "cat": "reasoning",
+      "left_is_fs": false,
+      "user_verdict": "R",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 39,
+      "id": "rewriting_042",
+      "cat": "rewriting",
+      "left_is_fs": true,
+      "user_verdict": "T",
+      "human_winner": "tie",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 40,
+      "id": "factual_qa_012",
+      "cat": "factual_qa",
+      "left_is_fs": false,
+      "user_verdict": "L",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 41,
+      "id": "multi_turn_132",
+      "cat": "multi_turn",
+      "left_is_fs": true,
+      "user_verdict": "L",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 42,
+      "id": "refuse_clarify_117",
+      "cat": "refuse_clarify",
+      "left_is_fs": false,
+      "user_verdict": "R",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 43,
+      "id": "reasoning_087",
+      "cat": "reasoning",
+      "left_is_fs": true,
+      "user_verdict": "R",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 44,
+      "id": "creative_097",
+      "cat": "creative",
+      "left_is_fs": false,
+      "user_verdict": "R",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 45,
+      "id": "refuse_clarify_120",
+      "cat": "refuse_clarify",
+      "left_is_fs": true,
+      "user_verdict": "L",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 46,
+      "id": "reasoning_084",
+      "cat": "reasoning",
+      "left_is_fs": false,
+      "user_verdict": "L",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 47,
+      "id": "extraction_075",
+      "cat": "extraction",
+      "left_is_fs": true,
+      "user_verdict": "R",
+      "human_winner": "finetune",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 48,
+      "id": "translation_111",
+      "cat": "translation",
+      "left_is_fs": false,
+      "user_verdict": "R",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 49,
+      "id": "reasoning_094",
+      "cat": "reasoning",
+      "left_is_fs": true,
+      "user_verdict": "T",
+      "human_winner": "tie",
+      "judge_winner": "tie"
+    },
+    {
+      "i": 50,
+      "id": "factual_qa_010",
+      "cat": "factual_qa",
+      "left_is_fs": false,
+      "user_verdict": "R",
+      "human_winner": "base_few_shot",
+      "judge_winner": "tie"
+    }
+  ]
+}

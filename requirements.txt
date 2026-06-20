@@ -1,0 +1,24 @@
+torch>=2.2
+transformers>=5.0
+trl>=1.6
+peft>=0.19
+bitsandbytes>=0.43
+datasets>=2.20
+accelerate>=0.30
+sacrebleu>=2.4
+unbabel-comet>=2.2
+evaluate>=0.4
+langdetect>=1.0.9
+pandas>=2.0
+matplotlib>=3.8
+sentencepiece>=0.2
+protobuf>=4.25
+scipy>=1.11
+scikit-learn>=1.3
+tqdm>=4.66
+huggingface_hub>=0.23
+datasketch>=1.6
+ftfy>=1.2
+numpy>=1.26
+# Optional — faster training on a single GPU
+# unsloth
