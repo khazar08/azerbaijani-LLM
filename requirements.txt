@@ -20,5 +20,5 @@ huggingface_hub>=0.23
 datasketch>=1.6
 ftfy>=1.2
 numpy>=1.26
-# Optional — faster training on a single GPU
+# optional: faster training on a single GPU
 # unsloth
