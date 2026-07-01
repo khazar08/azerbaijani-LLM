@@ -1,13 +1,3 @@
-"""
-Helper — generate model outputs for all systems on the frozen eval set.
-Run this before 07_eval_judge.py and 08_human_eval.py.
-
-Usage:
-    python scripts/09_generate_outputs.py \
-        --base_model  Qwen/Qwen2.5-3B \
-        --adapter_dir adapters/az-instruct-lora
-"""
-
 import argparse
 import json
 from pathlib import Path
