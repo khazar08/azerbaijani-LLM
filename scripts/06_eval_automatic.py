@@ -1,16 +1,3 @@
-"""
-Phase 4 — Automatic evaluation: Belebele (azj_Latn), SIB-200 (azj_Latn),
-and in-house translation chrF++ on the frozen eval set's translation category.
-
-Systems: base_zero_shot | base_few_shot | finetune
-
-Usage:
-    python scripts/06_eval_automatic.py \
-        --base_model Qwen/Qwen2.5-3B \
-        --adapter_dir adapters/az-instruct-lora \
-        --output results/auto_eval.json
-"""
-
 import argparse
 import json
 from pathlib import Path
