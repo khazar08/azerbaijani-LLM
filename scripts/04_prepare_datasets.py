@@ -1,23 +1,3 @@
-"""
-Phase 1 — Merge data tiers, apply chat template, decontaminate, and split.
-
-Reads:
-  - Tier 1: filtered machine-translated JSONL files (glob pattern)
-  - Tier 3: hand-authored native data JSONL
-  - Frozen eval:  data/eval/test.jsonl  (decontamination check only — NOT used for training)
-
-Writes:
-  - data/processed/train.jsonl
-  - data/processed/val.jsonl
-  - data/processed/decontam_report.json
-
-Usage:
-    python scripts/04_prepare_datasets.py \
-        --tier1_glob "data/raw/translated/*_filtered.jsonl" \
-        --tier3      data/raw/native/native_train.jsonl \
-        --base_model google/gemma-2-2b
-"""
-
 import argparse
 import glob
 import hashlib
