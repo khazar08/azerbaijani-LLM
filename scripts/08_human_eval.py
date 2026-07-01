@@ -1,22 +1,3 @@
-"""
-Phase 4 - Blind human evaluation CLI.
-
-Randomly shuffles and blinds system outputs so you cannot tell which is which.
-Uses the same 4-dimension 1-5 rubric as the LLM judge, then computes
-Cohen's kappa (judge vs human) so you can report judge-human agreement.
-
-Usage:
-    python scripts/08_human_eval.py \
-        --eval_file   data/eval/test.jsonl \
-        --outputs_a   results/outputs_base_few_shot.jsonl \
-        --outputs_b   results/outputs_finetune.jsonl \
-        --system_a    base_few_shot \
-        --system_b    finetune \
-        --judge_file  results/judge_eval.json \
-        --output      results/human_eval.json \
-        --n           50
-"""
-
 import argparse
 import json
 import random
