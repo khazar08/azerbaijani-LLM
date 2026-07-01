@@ -1,17 +1,3 @@
-"""
-Phase 3 — LoRA SFT training (CUDA: QLoRA 4-bit; MPS/CPU: float16 LoRA).
-
-Reads config from configs/train_config.yaml.
-Supports a small principled sweep via --run_name and --overrides.
-
-Usage:
-    # Single run (uses config defaults)
-    python scripts/05_train.py
-
-    # Sweep variant — override specific keys
-    python scripts/05_train.py --run_name r32_ep3 --overrides lora.r=32 training.num_train_epochs=3
-"""
-
 import argparse
 import json
 import random
