@@ -1,15 +1,3 @@
-"""
-Phase 2 — Tokenizer fertility analysis.
-
-Measures tokens-per-word for candidate base models on the same Azerbaijani text
-sample and contrasts with English. Run before committing to a base model.
-
-Usage:
-    python scripts/01_fertility_analysis.py
-
-Outputs a bar chart to results/fertility.png and prints a summary table.
-"""
-
 import argparse
 from pathlib import Path
 
