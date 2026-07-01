@@ -1,13 +1,3 @@
-"""
-Phase 1 / Tier 1 - Translate English instruction pairs to Azerbaijani via NLLB-200.
-
-Usage:
-    python scripts/02_translate_train.py \
-        --input  data/raw/dolly/train.jsonl \
-        --output data/raw/translated/dolly_az_raw.jsonl \
-        --max_rows 3000
-"""
-
 import argparse
 import json
 import time
