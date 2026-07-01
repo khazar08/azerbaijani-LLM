@@ -1,18 +1,3 @@
-"""
-Phase 1 - Translation quality filter pipeline.
-
-Filters (in order):
-  1. Language-ID  - drop rows not detected as Azerbaijani
-  2. Length-ratio - drop implausible token-count ratios vs. English
-  3. Back-translation chrF - translate Az->En, drop low agreement
-  4. Near-dedup via MinHash
-
-Usage:
-    python scripts/03_filter_pipeline.py \
-        --input  data/raw/translated/dolly_az_raw.jsonl \
-        --output data/raw/translated/dolly_az_filtered.jsonl
-"""
-
 import argparse
 import json
 from pathlib import Path
