@@ -1,20 +1,3 @@
-"""
-Phase 4 - Reference-based pairwise evaluation using chrF++ (sacrebleu).
-
-For each eval item, computes chrF++ of system A and system B against the gold
-reference, then calls the winner. Also reports per-category breakdown.
-
-No API key required — fully local.
-
-Usage:
-    python scripts/07_eval_judge.py \
-        --outputs_a results/outputs_base_few_shot.jsonl \
-        --outputs_b results/outputs_finetune.jsonl \
-        --system_a  base_few_shot \
-        --system_b  finetune \
-        --output    results/judge_eval.json
-"""
-
 import argparse
 import json
 from collections import defaultdict
