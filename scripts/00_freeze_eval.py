@@ -1,14 +1,3 @@
-"""
-Phase 0 — Freeze the held-out test set.
-
-Run ONCE after you've hand-authored data/eval/test.jsonl.
-Computes a SHA-256 checksum and refuses to overwrite it so you can't
-accidentally modify the test set after the fact.
-
-Usage:
-    python scripts/00_freeze_eval.py
-"""
-
 import hashlib
 import json
 import sys
