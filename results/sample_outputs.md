@@ -5,7 +5,7 @@ Failure modes annotated inline.
 
 ---
 
-## factual_qa — base wins (factual error in fine-tune)
+## factual_qa: base wins (factual error in fine-tune)
 
 **Instruction:** Azərbaycan neçənci ildə müstəqillik əldə etdi?  
 **Reference:** Azərbaycan 1991-ci ildə, Sovet İttifaqının dağılması zamanı müstəqillik əldə etdi.
