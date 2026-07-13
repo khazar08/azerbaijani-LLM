@@ -96,12 +96,12 @@ def main(args):
     else:
         print("WARNING: data/eval/test.jsonl not found — skipping decontamination!")
 
-    # --- Apply chat template ---
+    # chat template
     print(f"\nLoading tokenizer ({args.base_model})…")
     tok = AutoTokenizer.from_pretrained(args.base_model, use_fast=True)
     all_records = apply_chat_template(all_records, tok)
 
-    # --- Train / val split ---
+    # Train / val split
     random.shuffle(all_records)
     n_val = max(50, int(len(all_records) * VAL_FRACTION))
     val_records = all_records[:n_val]
