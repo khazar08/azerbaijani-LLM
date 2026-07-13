@@ -1,6 +1,6 @@
 # Azerbaijani Instruction-Following LLM
 
-Fine-tuned a 3B multilingual LLM for Azerbaijani instruction-following (LoRA on Apple Silicon);
+Fine-tuned a 3B multilingual LLM for Azerbaijani instruction-following (LoRA on Apple Silicon),
 built a native-authored eval set and a human + LLM-judge harness with documented failure-mode analysis.
 
 > **Headline result:** Fine-tune beats few-shot base on structured benchmarks — Belebele +8pp
