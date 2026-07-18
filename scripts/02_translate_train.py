@@ -2,7 +2,6 @@ import argparse
 import json
 import time
 from pathlib import Path
-
 import torch
 from tqdm import tqdm
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
@@ -54,14 +53,12 @@ def main(args):
     instructions = [r["instruction"] for r in records]
     responses    = [r.get("response") or r.get("output") or "" for r in records]
 
-    print("Translating instructions...")
     az_instructions = []
     for i in tqdm(range(0, len(instructions), BATCH_SIZE)):
         az_instructions.extend(
             translate_batch(model, tok, instructions[i : i + BATCH_SIZE], device)
         )
 
-    print("Translating responses...")
     az_responses = []
     for i in tqdm(range(0, len(responses), BATCH_SIZE)):
         az_responses.extend(
