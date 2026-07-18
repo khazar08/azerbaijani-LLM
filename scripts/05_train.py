@@ -178,7 +178,6 @@ def main(args):
         processing_class=tokenizer,
     )
 
-    print("Starting training…")
     trainer.train()
 
     adapter_out = cfg["paths"]["adapter_out"]
