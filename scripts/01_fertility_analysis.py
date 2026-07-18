@@ -1,6 +1,5 @@
 import argparse
 from pathlib import Path
-
 import matplotlib.pyplot as plt
 import numpy as np
 from datasets import load_dataset
@@ -64,7 +63,6 @@ def main(args):
         print(f"  az={az_f:.3f}  en={en_f:.3f}  az/en={az_f/en_f:.2f}x")
 
     # Table
-    print("\n--- Fertility Summary ---")
     print(f"{'Model':<45} {'Az':>6} {'En':>6} {'Az/En':>7}")
     print("-" * 70)
     best = min(results, key=lambda m: results[m]["ratio"])
@@ -72,7 +70,6 @@ def main(args):
         marker = " ← recommended" if m == best else ""
         print(f"{m:<45} {v['az']:>6.3f} {v['en']:>6.3f} {v['ratio']:>6.2f}x{marker}")
 
-    # Plot
     Path("results").mkdir(exist_ok=True)
     short_names = [m.split("/")[-1] for m in results]
     az_vals = [results[m]["az"] for m in results]
