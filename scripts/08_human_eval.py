@@ -2,7 +2,6 @@ import argparse
 import json
 import random
 from pathlib import Path
-
 from sklearn.metrics import cohen_kappa_score
 
 DIMS = ["instruction_adherence", "fluency", "factuality", "completeness"]
@@ -66,8 +65,7 @@ def main(args):
     candidates = candidates[: args.n]
 
     print(f"\nStarting BLIND human eval on {len(candidates)} items.")
-    print("You will NOT know which system is which.  Ctrl-C saves progress.\n")
-
+    
     results = []
     wa, wb, ties = 0, 0, 0
     ftally: dict[str, int] = {m: 0 for m in FAILURE_MODES}
