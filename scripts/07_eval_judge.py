@@ -2,7 +2,6 @@ import argparse
 import json
 from collections import defaultdict
 from pathlib import Path
-
 from sacrebleu.metrics import CHRF
 
 
@@ -73,14 +72,12 @@ def main(args):
     avg_a = sum(chrf_a_scores) / max(len(chrf_a_scores), 1)
     avg_b = sum(chrf_b_scores) / max(len(chrf_b_scores), 1)
 
-    print(f"\n{'='*55}")
     print(f"Margin threshold: {args.margin} chrF++ points")
     print(f"{'System':<25} {'avg chrF++':>10}  {'wins':>6}  {'%':>6}")
     print(f"{args.system_a:<25} {avg_a:>10.2f}  {wa:>6}  {wa/n:.1%}")
     print(f"{args.system_b:<25} {avg_b:>10.2f}  {wb:>6}  {wb/n:.1%}")
     print(f"{'Ties':<25} {'':>10}  {ties:>6}  {ties/n:.1%}")
 
-    print(f"\nPer-category breakdown:")
     for cat, counts in sorted(by_cat.items()):
         total = sum(counts.values())
         print(f"  {cat:<25} A={counts['A_wins']:>2}  B={counts['B_wins']:>2}  tie={counts['tie']:>2}  (n={total})")
