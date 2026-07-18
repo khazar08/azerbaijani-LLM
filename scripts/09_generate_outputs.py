@@ -105,7 +105,6 @@ def main(args):
     eval_rows = load_eval()
     print(f"Generating outputs for {len(eval_rows)} eval items.\n")
 
-    print("--- base_zero_shot ---")
     model, tok = make_model(args.base_model, device=device)
     save_outputs(generate_all(model, tok, eval_rows, few_shot=False), "base_zero_shot")
 
