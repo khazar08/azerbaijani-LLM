@@ -10,7 +10,7 @@ from transformers import AutoTokenizer
 from tqdm import tqdm
 
 VAL_FRACTION = 0.05
-DECONTAM_THRESHOLD = 0.8   # Jaccard similarity above which a train example is flagged
+DECONTAM_THRESHOLD = 0.8  
 SEED = 42
 
 
