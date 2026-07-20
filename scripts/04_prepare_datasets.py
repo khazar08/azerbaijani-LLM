@@ -4,7 +4,6 @@ import hashlib
 import json
 import random
 from pathlib import Path
-
 from datasets import Dataset
 from transformers import AutoTokenizer
 from tqdm import tqdm
@@ -94,7 +93,7 @@ def main(args):
         print(f"Decontam: {len(flagged)} flagged and removed (see data/processed/decontam_report.json)")
         all_records = clean
     else:
-        print("WARNING: data/eval/test.jsonl not found — skipping decontamination!")
+        print("warning: data/eval/test.jsonl not found — skipping decontamination!")
 
     # chat template
     print(f"\nLoading tokenizer ({args.base_model})…")
