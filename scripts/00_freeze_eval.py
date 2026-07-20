@@ -65,8 +65,6 @@ def main():
     checksum = sha256_file(EVAL_FILE)
     CHECKSUM_FILE.write_text(checksum + "\n")
     print(f"\nFrozen. SHA-256 written to {CHECKSUM_FILE}: {checksum}")
-    print("Do NOT modify data/eval/test.jsonl from this point on.")
-
 
 if __name__ == "__main__":
     main()
