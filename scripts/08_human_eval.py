@@ -78,9 +78,8 @@ def main(args):
         left  = oa[rid] if left_is_a else ob[rid]
         right = ob[rid] if left_is_a else oa[rid]
 
-        print(f"\n{'='*60}")
         print(f"Item {i}/{len(candidates)}  |  category={row.get('category','?')}  |  id={rid}")
-        print(f"INSTRUCTION: {row['instruction']}\n")
+        print(f"Instruction: {row['instruction']}\n")
 
         sl = score_response("LEFT",  left)
         sr = score_response("RIGHT", right)
@@ -121,7 +120,6 @@ def main(args):
             jv_list.append(judge_v[rid])
 
     n = len(results)
-    print(f"\n{'='*60}")
     print(f"FINAL  n={n}")
     print(f"  {args.system_a}: {wa} wins ({wa/n:.1%})")
     print(f"  {args.system_b}: {wb} wins ({wb/n:.1%})")
