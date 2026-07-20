@@ -196,7 +196,7 @@ def main(args):
     }
     summary_path = Path(t_cfg["output_dir"]) / "run_summary.json"
     summary_path.write_text(json.dumps(summary, indent=2))
-    print(f"Run summary → {summary_path}")
+    print(f"Run summary: {summary_path}")
 
 
 if __name__ == "__main__":
