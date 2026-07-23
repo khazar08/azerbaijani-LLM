@@ -98,7 +98,6 @@ def clear_cache(device: str):
     elif device == "mps":
         torch.mps.empty_cache()
 
-
 def main(args):
     device = detect_device()
     print(f"Device: {device}")
