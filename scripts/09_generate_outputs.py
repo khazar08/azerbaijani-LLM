@@ -82,7 +82,6 @@ def generate_all(model, tok, rows: list[dict], few_shot: bool = False) -> list[d
         })
     return out
 
-
 def save_outputs(rows: list[dict], name: str):
     OUT_DIR.mkdir(exist_ok=True)
     path = OUT_DIR / f"outputs_{name}.jsonl"
@@ -107,7 +106,6 @@ def main(args):
     model, tok = make_model(args.base_model, device=device)
     save_outputs(generate_all(model, tok, eval_rows, few_shot=False), "base_zero_shot")
 
-    print("--- base_few_shot ---")
     save_outputs(generate_all(model, tok, eval_rows, few_shot=True), "base_few_shot")
     del model
     clear_cache(device)
