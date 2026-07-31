@@ -10,7 +10,7 @@
     "az": 5.007,
     "en": 1.492,
     "ratio": 3.36
-  },
+  }, 
   "Falcon-1B": {
     "model_id": "tiiuae/falcon-rw-1b",
     "az": 5.822,
