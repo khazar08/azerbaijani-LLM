@@ -140,7 +140,7 @@ def main(args):
 
     out = {
         "system_a": args.system_a, "system_b": args.system_b,
-        "n": n, "win_a": wa, "win_b": wb, "ties": ties,
+        "n": n, "win_a": wa, "win_b": wb, "ties": ties, 
         "judge_human_kappa": kappa,
         "failure_tally": ftally, "items": results,
     }
