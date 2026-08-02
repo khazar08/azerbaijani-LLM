@@ -82,7 +82,7 @@ def main(args):
     ax.set_xticks(x)
     ax.set_xticklabels(short_names, rotation=20, ha="right")
     ax.set_ylabel("Tokens per word (lower = more efficient)")
-    ax.set_title("Tokenizer fertility: Azerbaijani vs. English")
+    ax.set_title("Tokenizer fertility: Azerbaijani vs. English") 
     ax.legend()
     ax.axhline(1.0, color="grey", linestyle="--", linewidth=0.8)
     plt.tight_layout()
