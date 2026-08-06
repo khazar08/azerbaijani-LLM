@@ -12,7 +12,6 @@ VAL_FRACTION = 0.05
 DECONTAM_THRESHOLD = 0.8  
 SEED = 42
 
-
 def load_jsonl(path: str) -> list[dict]:
     rows = []
     for line in Path(path).read_text(encoding="utf-8").splitlines():
