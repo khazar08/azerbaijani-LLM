@@ -74,7 +74,7 @@ def main(args):
     short_names = [m.split("/")[-1] for m in results]
     az_vals = [results[m]["az"] for m in results]
     en_vals = [results[m]["en"] for m in results]
-    x = np.arange(len(short_names))
+    x = np.arange(len(short_names)) 
     w = 0.35
     fig, ax = plt.subplots(figsize=(10, 5))
     ax.bar(x - w / 2, az_vals, w, label="Azerbaijani", color="#E63946")
